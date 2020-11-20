@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Yanone Kaffeesatz", sans-serif !important;
+}
+
+header.container-fluid{
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+    color: white;
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    Object-fit: cover;
+    
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/16-05-2017/vitae-demo_Free/1275443431/web/images/1.jpg);
+}
+
+header.container-fluid h1{
+    font-size: 7rem;
+    font-family: "Dancing Script", cursive;
+}
+
+header.container-fluid h3{
+    font-size: 2.8rem;
+    margin: 2.8rem 0 ;
+    font-family: inherit;
+}
+
+header.container-fluid p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height: 3rem;
+    font-family: inherit;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+header.container-fluid button {
+    color: white;
+    width: 140px;
+    height: 50px;
+    border: 2px solid #ce7501;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+header.container-fluid button:hover {
+    border: 2px solid #ce7501;
+    background: #fff;
+    color: #000;
+}
