@@ -1,5 +1,6 @@
 @import url(AboutMe.css);
 @import url(Portfolio.css);
+@import url(Contact-footer.css);
 
 html{
     font-size: 62.5%;
@@ -18,7 +19,7 @@ header.container-fluid{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     Object-fit: cover;
-    
+    background-attachment: fixed;    
     background-image: url(https://demo.w3layouts.com/demos_new/template_demo/16-05-2017/vitae-demo_Free/1275443431/web/images/1.jpg);
 }
 
@@ -61,13 +62,13 @@ header.container-fluid button:hover {
     color: #000;
 }
 
+
 .social-icons ul{
     list-style: none;
     display: flex;
     flex-direction: row;
     padding: 0;
     margin-top: 40px;
-
 }
 
 .social-icons ul li a {

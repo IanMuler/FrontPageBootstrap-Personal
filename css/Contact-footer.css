@@ -1,0 +1,61 @@
+div.overlay-footer{
+    background: url("https://demo.w3layouts.com/demos_new/template_demo/30-01-2019/anent-demo_Free/1940458027/web/images/bg2.jpg");
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    Object-fit: cover;
+    background-attachment: fixed;
+}
+
+#contact-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 0.582);
+    
+}
+
+#contact-footer .title{
+    margin: 40px 0;
+}
+
+.social-icons-footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+}
+
+.social-icons-footer ul li a {
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.social-icons-footer ul li a:hover{
+    border: 2px solid #ce7501;
+    
+}
+
+#contact-footer .mail{
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+  
+}
+
+@media (max-width: 500px){
+    #contact-footer .row {
+        height: 500px !important;
+    }
+}
